@@ -1,21 +1,21 @@
 var readlineSync = require('readline-sync');
 
 var userName = readlineSync.question('What is your name ? ');
-console.log('Hey ' + userName + '! Welcome to HOW WELL DO YOU KNOW Mohit Quiz.');
+console.log('Hey ' + userName + '! Welcome to HOW WELL DO YOU KNOW Regal Quiz.');
 console.log('---------------------------------------------------');
 console.log("Rules & Instructions: ");
 console.log('You will get +2 for each right answer and -2 for each wrong answer');
 console.log('---------------------------------------------------');
 
 const questions = [{
-  question: "Where do Mohit Live? ",
+  question: "Where do Regal Live? ",
   answer: "Bangalore"
 }, {
-  question: "Whats the Mohit age is? ",
-  answer: "20"
+  question: "Whats the Regal age is? ",
+  answer: "22"
 }, {
-  question: "In which month Mohit has his birthday? ",
-  answer: "December"
+  question: "In which month Regal has his birthday? ",
+  answer: "june"
 }, {
   question: "Which one do I like? Coffee or Tea? ",
   answer: "Tea"
